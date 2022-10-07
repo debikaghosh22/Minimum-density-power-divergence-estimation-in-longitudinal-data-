@@ -1,0 +1,18 @@
+The minimum density power divergence estimator is a very well known method in robust statistical inference which can withstand the presence of outliers in the data and 
+a few model misspecifications (Refer to "Robust and efficient estimation by minimising a density power divergence", for further theoretical details) and is known to
+provide superior performance, in such instances, as opposed to the method of maximum likelihood estimation. My work consists of the application of this method on 
+longitudinal data with discrete outcomes and its comparison with the method of pairwise maximum likelihood estimation (as suggested in "DISCRETE LONGITUDINAL DATA
+MODELING WITH A MEAN-CORRELATION REGRESSION APPROACH"). 
+
+The files in the repository contain all the pieces of code (implemented in R programming language) that were written to apply the above mentioned method on longitudinal 
+data with discrete outcomes. These codes primarily consist of simulations, calculation of the asymptotic properties of the estimator, application on some real data sets.
+The files have been arranged in the following manner:
+
+1) Simulation study for the pairwise minimum density power divergence estimator (MDPDE) on pure data (with binary outcomes)
+2) Simulation study for the pairwise MDPDE on contaminated data (with contaminated binary responses)
+3) Simulation study for the pairwise maximum likelihood estimator on pure data
+4) Simulation study for the pairwise maximum likelihood estimator on contaminated data
+5) Calculation of the asymptotic properties of the pairwise MDPDE
+6) Application of both these methods on Toenail infection data
+7) Application of both these methods on Locust data (by MacDonald and Raubenheimer)
+8) Application of both these methods on PBC Mayo liver data
